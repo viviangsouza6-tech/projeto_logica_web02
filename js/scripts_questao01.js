@@ -13,8 +13,11 @@ formDados.addEventListener('submit', (evt)=>{
     let n2 = objFormDados.get('num2')
     let n3 = objFormDados.get('num3')
 
-    let media = (n1 + n2 + n3) / 3
+    let media = parseFloat(n1 + n2 + n3) / parseFloat (3)
 
-    divResultados.innerHTML = situacaoIdade
+    divResultados.innerHTML = `A MÉDIA DOS NÚMEROS DIGITADOS É: ${media}`
+    {media.toFixed(2).replace('.',',')}
+    
+    formDados.reset()
 })
    
