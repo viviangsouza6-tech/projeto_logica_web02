@@ -3,7 +3,7 @@ const formDados = document.querySelector("#formulário pessoa")
 const divResultados = document.querySelector ("div-dados")
 
 //CAPTURANDO O EVENTO SUBMIT [x] FORMULÁRIO
-formDados.addEventListener('submit', (evt)=>{
+formDados.addEventListener ('submit', (evt)=>{
     evt.preventDefault()
 
 
