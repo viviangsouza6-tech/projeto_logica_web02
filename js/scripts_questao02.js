@@ -1,6 +1,6 @@
 //PEGANDO ELELMENTOS DO DOM 
-const formDados = document.querySelector("#formulario")
-const divResultados = document.querySelector ("#div-dados")
+const formDados = document.querySelector('#formulario')
+const divResultados = document.querySelector ('#div-dados')
 
 //CAPTURANDO O EVENTO SUBMIT [x] FORMULÁRIO
 formDados.addEventListener('submit', (evt)=>{
